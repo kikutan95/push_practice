@@ -1,0 +1,7 @@
+[user]
+	name = kikutan95
+	email = 2483221s@stu.kobe-u.ac.jp\ngit config --global --list\n\ngit config --global user.email 2483221s@stu.kobe-u.ac.jp
+[init]
+	defaultBranch = main
+[core]
+	editor = code --wait
