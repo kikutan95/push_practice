@@ -177,3 +177,28 @@ git config --global core.editor 'code --wait'
 progate submit
 ssh-keygen -t ed25519
 vim /etc/ssh/sshd_config
+ls -al ~/.ssh
+ssh-keygen -t ed25519
+cat ~/.ssh/id_ed25519.pub
+ssh -T git@github.com
+git init --initial-branch main
+git add .
+git commit -m "initial commit"
+git log
+git remote add origin <url>
+git remote
+git remote add origin <url>
+git remote add origin <git@github.com:kikutan95/push_practice.git>
+git remote add origin <https://github.com/kikutan95/push_practice.git.
+git remote add origin <https://github.com/kikutan95/push_practice.git>
+git remote add origin git@github.com:kikutan95/push_practice.git
+git remote
+git push origin main
+main -> main (push declined due to repository rule violations)
+git pull origin main
+git push origin main
+git remote -v
+git pull origin main
+git remote -v
+git push origin main
+exit
